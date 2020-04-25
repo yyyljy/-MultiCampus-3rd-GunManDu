@@ -1,0 +1,169 @@
+
+김희원 futurian@naver.com
+010-2224-6128
+https://kr.linkedin.com/in/heewon-kim-95531724
+
+궁금한 것 있으면 연락을~!
+
+# 취업
+
+https://www.linkedin.com
+
+https://www.hyundai.co.kr/Careeres/Job-Opening/recruit-kmc-200203-04.hub
+
+ 
+
+ 
+
+# 캐글
+
+https://www.kaggle.com
+
+ 
+
+ 
+
+# 클라우드 기반 딥러닝
+
+https://aws.amazon.com/ko/deep-learning
+
+https://aws.amazon.com/ko/deepracer
+
+https://cloud.google.com
+
+https://coral.withgoogle.com
+
+https://www.nvidia.com/en-us/deep-learning-ai/education
+
+https://developer.nvidia.com/isaac-sdk
+
+ 
+
+ 
+
+# 학습 사이트
+
+www.udemy.com
+
+https://www.udacity.com/
+
+https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
+
+https://www.udacity.com/course/robotics-software-engineer--nd209
+
+https://www.pyimagesearch.com/
+
+https://www.learnopencv.com/
+
+https://github.com/spmallick/learnopencv
+
+http://www.modulabs.co.kr/
+
+ 
+
+# 툴 사이트
+
+https://taskworld.com/ko/
+
+https://infinitejava.tistory.com/61
+
+https://www.jandi.com/landing/kr
+
+https://slack.com/intl/en-kr/
+
+https://www.atlassian.com/software/jira
+
+https://github.com
+
+ 
+
+ 
+
+ 
+
+# SDC (Self-Driving car) dataset
+
+https://www.cityscapes-dataset.com/
+
+https://bdd-data.berkeley.edu/
+
+http://www.cvlibs.net/datasets/kitti/eval_road.php
+
+https://github.com/ndrplz/self-driving-car
+
+ 
+
+ 
+
+# github 이용
+
+ 
+
+https://github.com/awesomedata/awesome-public-datasets
+
+https://github.com/ChristosChristofidis/awesome-deep-learning
+
+https://gengo.ai/datasets/the-50-best-free-datasets-for-machine-learning/
+
+ 
+
+ 
+
+# 메이커 학습 리소스
+
+메이커페어	https://makerfaire.co.kr/about/
+
+ICBanq 		https://www.icbanq.com/shop/main.asp
+
+엘레파츠 	http://www.eleparts.co.kr/main/index
+
+DF Robot 	https://www.dfrobot.com/
+
+Mouser 		https://kr.mouser.com/
+
+ 
+
+ 
+
+# 개발자 모임
+
+https://www.facebook.com/groups/KoreanRobotics/
+
+https://www.facebook.com/groups/slamkr/
+
+https://www.facebook.com/groups/opendrone/
+
+https://www.facebook.com/groups/TensorFlowKR/
+
+https://www.facebook.com/groups/modulabs/
+
+https://www.facebook.com/groups/ChatbotDevKR/
+
+https://www.facebook.com/groups/ainlp/
+
+https://www.facebook.com/groups/ReinforcementLearningKR/
+
+ 
+
+# 과제
+
+양재R&CD 혁신허브   http://yangjaehub.com/
+
+서울시 창업허브 http://seoulstartuphub.com/
+
+중기청 과제관리 https://smtech.go.kr
+
+K-스타트업  https://www.k-startup.go.kr/main.do 
+
+한국벤처투자 https://www.k-vic.co.kr/index.do
+
+위쉬켓 https://www.wishket.com/
+
+비긴메이트 https://www.beginmate.com/
+
+홍콩 RISE 컨퍼런스 https://riseconf.com/
+
+
+https://www.cityscapes-dataset.com/
+http://coolhigh.com.cn/aboutus
+http://bit-cciv.com/
