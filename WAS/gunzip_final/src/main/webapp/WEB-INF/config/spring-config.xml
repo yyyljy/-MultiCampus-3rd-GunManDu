@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/build/**" location="/WEB-INF/static/build/" />
+	<resources mapping="/dist/**" location="/WEB-INF/static/dist/" />
+	<resources mapping="/docs/**" location="/WEB-INF/static/docs/" />
+	<resources mapping="/pages/**" location="/WEB-INF/static/pages/" />
+	<resources mapping="/plugins/**" location="/WEB-INF/static/plugins/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	<!-- =================================== mybatis사용 ============================================= -->
+	<!-- 1. connection관리를 담당하는 객체를 생성해준다 -->
+	<beans:bean id="ds"
+		class="org.springframework.jndi.JndiObjectFactoryBean">
+		<beans:property name="jndiName" value="jdbc/myspring" />
+		<beans:property name="resourceRef" value="true" />
+	</beans:bean>
+	<!-- 2. spring에서 mybatis의 핵심클래스인 SqlSession을 사용할 수 있도록 하기 위해서 생성 (sql문을 
+		실행하기 위해서.) -->
+	<beans:bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<beans:property name="dataSource" ref="ds" />
+		<!-- 아래는 mybatis의 설정파일의 위치를 알려주는거 -->
+		<beans:property name="configLocation"
+			value="/WEB-INF/config/mybatis-config.xml" />
+	</beans:bean>
+	<!-- 3. mybatis의 핵심클래스를 등록 -->
+	<beans:bean id="sqlSession"
+		class="org.mybatis.spring.SqlSessionTemplate"
+		destroy-method="clearCache">
+		<beans:constructor-arg ref="sqlSessionFactory" />
+	</beans:bean>
+	<!-- =================================== mybatis 끝 ============================================= -->
+
+	
+	<context:component-scan base-package="com" />
+	
+	
+	
+</beans:beans>
