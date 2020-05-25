@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/bottom_home"
+        android:title="bottom_home" />
+
+    <item
+        android:id="@+id/bottom_truck"
+        android:icon="@drawable/bottom_truck"
+        android:title="bottom_truck" />
+
+    <item
+        android:id="@+id/bottom_navi"
+        android:icon="@drawable/bottom_navi"
+        android:title="bottom_navi" />
+
+    <item
+        android:id="@+id/bottom_fan"
+        android:icon="@drawable/bottom_fan"
+        android:title="bottom_fan" />
+</menu>
